@@ -1,0 +1,19 @@
+        <Pressable
+          onPress={handlePress}
+          style={({ pressed }) => [
+            styles.textButton,
+            pressed && styles.pressedButton,
+          ]}
+        >
+          <Text style={styles.buttonText}>Realizar prueba de daltonismo</Text>
+        </Pressable>
+
+        <Pressable
+          onPress={handlePress}
+          style={({ pressed }) => [
+            styles.textButton,
+            pressed && styles.pressedButton,
+          ]}
+        >
+          <Text style={styles.buttonText}>Herramientas de asistencia</Text>
+        </Pressable>
