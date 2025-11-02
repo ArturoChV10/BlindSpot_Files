@@ -13,7 +13,7 @@ import * as FileSystem from 'expo-file-system';
 import axios from 'axios';
 
 // ⚠️ IMPORTANTE: Cambia esta IP por la de tu computadora
-const API_URL = 'http://172.18.84.234:5001'; // Servidor de detección de colores
+const API_URL = 'http://172.18.110.104:5001'; // Servidor de detección de colores
 
 const Camera = () => {
   const [facing, setFacing] = useState('back');

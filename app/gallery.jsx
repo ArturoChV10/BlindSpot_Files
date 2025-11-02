@@ -15,7 +15,7 @@ import axios from 'axios';
 import TabBar from "./components/TabBar"; // Importa el TabBar
 
 // ⚠️ IMPORTANTE: Cambia esta IP por la de tu computadora
-const API_URL = 'http://172.18.84.234:5000'; // Tu IP local
+const API_URL = 'http://172.18.110.104:5000'; // Tu IP local
 
 const Gallery = () => {
   const [imagen, setImagen] = useState(null);
